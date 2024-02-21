@@ -17,6 +17,8 @@
 		741114FA2B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741114F92B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppTests.swift */; };
 		741115042B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741115032B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppUITests.swift */; };
 		741115062B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741115052B6B1B4F00702BA4 /* BobbaAlphaNumericFunAppUITestsLaunchTests.swift */; };
+		741414172B6DD13300840DBD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 741414162B6DD13300840DBD /* Lottie */; };
+		7414141A2B6DDC2400840DBD /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 741414192B6DDC2400840DBD /* AnimatedGradientView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7414141A2B6DDC2400840DBD /* AnimatedGradientView in Frameworks */,
+				741414172B6DD13300840DBD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +158,10 @@
 			dependencies = (
 			);
 			name = BobbaAlphaNumericFunApp;
+			packageProductDependencies = (
+				741414162B6DD13300840DBD /* Lottie */,
+				741414192B6DDC2400840DBD /* AnimatedGradientView */,
+			);
 			productName = BobbaAlphaNumericFunApp;
 			productReference = 741114DF2B6B1B4A00702BA4 /* BobbaAlphaNumericFunApp.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +234,10 @@
 				Base,
 			);
 			mainGroup = 741114D62B6B1B4A00702BA4;
+			packageReferences = (
+				741414152B6DD13300840DBD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				741414182B6DDC2400840DBD /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+			);
 			productRefGroup = 741114E02B6B1B4A00702BA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -613,6 +625,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		741414152B6DD13300840DBD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+		741414182B6DDC2400840DBD /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		741414162B6DD13300840DBD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741414152B6DD13300840DBD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		741414192B6DDC2400840DBD /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741414182B6DDC2400840DBD /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 741114D72B6B1B4A00702BA4 /* Project object */;
 }
