@@ -32,13 +32,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eKD-fg-ahN">
-                                <rect key="frame" x="0.0" y="359" width="81.333333333333329" height="80.666666666666686"/>
+                                <rect key="frame" x="0.0" y="359" width="90.333333333333329" height="82.333333333333314"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="eJi-5o-BrT" userLabel="log in details">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="80.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="82.333333333333329"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoR-Jv-zT0">
-                                                <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="22.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="24"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Username">
                                                         <attributes>
@@ -50,7 +50,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcb-CK-lB1">
-                                                <rect key="frame" x="0.0" y="29.333333333333332" width="81.333333333333329" height="51.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="31.000000000000004" width="90.333333333333329" height="51.333333333333343"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Password">
                                                         <attributes>
@@ -89,6 +89,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="logino:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLy-YU-a9c"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="je3-pf-WnS">
                                         <rect key="frame" x="32.333333333333336" y="57.000000000000007" width="23.666666666666664" height="20.333333333333336"/>
@@ -109,6 +112,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signUP:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="cvd-fr-fVe"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
