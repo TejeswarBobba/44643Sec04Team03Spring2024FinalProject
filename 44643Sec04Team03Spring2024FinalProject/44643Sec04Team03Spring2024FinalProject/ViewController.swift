@@ -27,5 +27,10 @@ class ViewController: UIViewController {
     
     @IBAction func signUP(_ sender: UIButton) {
     }
+    
+    @IBOutlet weak var usernameTF: UITextField!
+    
+    
+    
 }
 

@@ -157,6 +157,9 @@
                             <constraint firstItem="Uwr-Oz-glZ" firstAttribute="height" secondItem="LCw-SC-rCw" secondAttribute="height" multiplier="0.83" id="DgK-ZA-rk9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="usernameTF" destination="YhI-Mo-89s" id="1nV-7y-9oz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
