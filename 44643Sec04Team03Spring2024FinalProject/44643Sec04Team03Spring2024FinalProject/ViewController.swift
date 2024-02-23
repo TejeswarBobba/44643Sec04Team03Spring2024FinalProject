@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var usernameTF: UITextField!
     
+    @IBOutlet weak var passwordTF: UITextField!
     
     
 }
