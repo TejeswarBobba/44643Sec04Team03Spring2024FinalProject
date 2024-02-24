@@ -22,7 +22,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func logino(_ sender: Any) {
+    
+    @IBAction func login(_ sender: UIButton) {
+        guard let username = usernameTF.text, !username.isEmpty else {
+                    //need to implement code here
+                    return
+                }
+
+                guard let password = passwordTF.text, !password.isEmpty else {
+                    //need to implement code here
+                    return
+                }
     }
     
     @IBAction func signUP(_ sender: UIButton) {
