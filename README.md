@@ -13,3 +13,6 @@
 •	If the Patient was logged by tapping the log-in button, it navigates to the  new screen and consists of different tab’s will be visible to the patient like medical record ,calendar( reminds about the medicines),Symptoms(Any health issue or side effects),Notification(Notification’s from doctor), Doctor contact or Hospital contact if any emergency and Prescription (The updated prescription which received from the doctor).<br>
 •	The above mentioned each tab will be re-directed to new screen to show up their respective info to the patient.<br>
 •	Also, the calendar tab consists the vertically scrolling option to check their respective tasks on different dates or weeks.<br>
+
+# Screen - 01
+* As a Team, we have updated the  log in /sign up page which is a screen-1 in our project and labels, action buttons, segmented control and text label has been included.Also, we have included the Lottie image animation and performed the actions to UI.
