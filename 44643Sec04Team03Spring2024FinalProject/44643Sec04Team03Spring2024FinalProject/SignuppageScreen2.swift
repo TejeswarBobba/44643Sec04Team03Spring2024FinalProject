@@ -24,4 +24,10 @@ class SignuppageScreen2: UIViewController
     @IBAction func PWDTF(_ sender: Any) {
     }
     
+    @IBAction func confirmPassword(_ sender: UITextField) {
+    }
+    
+    @IBAction func createButtonPressed(_ sender: UIButton) {
+    }
+    
 }
