@@ -11,6 +11,13 @@ class SignuppageScreen2: UIViewController
 
 {
 
+    
+    @IBOutlet weak var emailvc: UITextField!
+    
+    
+    
+    @IBOutlet weak var pswdvc: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
