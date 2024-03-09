@@ -16,3 +16,6 @@
 
 # Screen - 01
 * As a Team, we have updated the  log in /sign up page which is a screen-1 in our project and labels, action buttons, segmented control and text label has been included.Also, we have included the Lottie image animation and performed the actions to UI.
+
+# Screen - 02
+* As a team, we created a signup page in which we included a user to create/Register into the app by giving Email Address and creating there password and also confirmation of password, well we also introduced a Navigation Controller which helps in navigating through 2 pages.
