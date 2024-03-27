@@ -17,6 +17,7 @@
 		7410662F2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410662E2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift */; };
 		741066312B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741066302B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift */; };
 		7444A0762B9AB91100A73844 /* SignuppageScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */; };
+		74C620D52BB451EA000350BF /* DoctorLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C620D42BB451EA000350BF /* DoctorLoginPage.swift */; };
 		DA9C38922B898BBF009B23FA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DA9C38912B898BBF009B23FA /* Lottie */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		7410662E2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4643Sec04Team03Spring2024FinalProjectUITests.swift; sourceTree = "<group>"; };
 		741066302B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignuppageScreen2.swift; sourceTree = "<group>"; };
+		74C620D42BB451EA000350BF /* DoctorLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLoginPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				741066112B85B27D00BCC9D0 /* ViewController.swift */,
 				7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */,
 				741066132B85B27D00BCC9D0 /* Main.storyboard */,
+				74C620D42BB451EA000350BF /* DoctorLoginPage.swift */,
 				741066182B85B27E00BCC9D0 /* LaunchScreen.storyboard */,
 				741066162B85B27E00BCC9D0 /* Assets.xcassets */,
 				7410661B2B85B27E00BCC9D0 /* Info.plist */,
@@ -281,6 +284,7 @@
 				7410660E2B85B27D00BCC9D0 /* AppDelegate.swift in Sources */,
 				741066102B85B27D00BCC9D0 /* SceneDelegate.swift in Sources */,
 				7444A0762B9AB91100A73844 /* SignuppageScreen2.swift in Sources */,
+				74C620D52BB451EA000350BF /* DoctorLoginPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qNq-q6-tuW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qNq-q6-tuW">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -148,12 +148,14 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bIP-UE-Nmq" firstAttribute="height" secondItem="y1Y-hv-byo" secondAttribute="height" priority="750" id="9wS-m3-3WE"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bIP-UE-Nmq" firstAttribute="height" secondItem="y1Y-hv-byo" secondAttribute="height" priority="750" id="9wS-m3-3WE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y1Y-hv-byo" secondAttribute="trailing" id="KSx-HI-PXw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y1Y-hv-byo" secondAttribute="bottom" constant="20" id="Sgj-go-krw"/>
                             <constraint firstItem="y1Y-hv-byo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bqE-Bh-jsb"/>
@@ -325,6 +327,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kgm-Dw-Wpt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+        <!--Doctorlogin Page-->
+        <scene sceneID="ywv-uA-GKk">
+            <objects>
+                <viewController id="g6R-Up-KYT" customClass="DoctorloginPage" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HeQ-AV-8OD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CgM-Ks-NOE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IgU-ee-Okg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-772" y="331"/>
         </scene>
     </scenes>
     <resources>
