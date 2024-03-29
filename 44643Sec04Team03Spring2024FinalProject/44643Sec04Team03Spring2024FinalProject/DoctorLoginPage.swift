@@ -9,6 +9,8 @@ import UIKit
 
 class DoctorLoginPage: UIViewController {
 
+    @IBOutlet var patientList: [UILabel]!
+    @IBOutlet weak var doctorName: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
