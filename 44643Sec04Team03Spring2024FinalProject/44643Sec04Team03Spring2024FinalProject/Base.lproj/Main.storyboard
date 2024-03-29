@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qNq-q6-tuW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="y1Y-hv-byo" userLabel="BigContainerSV">
-                                <rect key="frame" x="0.0" y="123" width="393" height="675"/>
+                                <rect key="frame" x="0.0" y="175" width="393" height="623"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIP-UE-Nmq">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="333.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="307.66666666666669"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Care Connect">
                                                 <attributes>
@@ -34,13 +34,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KOH-QH-xQ7">
-                                        <rect key="frame" x="0.0" y="341.66666666666674" width="393" height="333.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="315.66666666666674" width="393" height="307.33333333333326"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LCw-SC-rCw" userLabel="selectionSV">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="105.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="97"/>
                                                 <subviews>
                                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="z6w-Sh-qJa">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="106.66666666666667"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="98"/>
                                                         <color key="backgroundColor" red="0.69164818813899631" green="0.77606693439609364" blue="0.83748632669448853" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <segments>
                                                             <segment title="Patient"/>
@@ -51,13 +51,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eKD-fg-ahN">
-                                                <rect key="frame" x="0.0" y="113.66666666666669" width="393" height="106"/>
+                                                <rect key="frame" x="0.0" y="104.99999999999994" width="393" height="97.333333333333314"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eJi-5o-BrT" userLabel="UserpwdSV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="106"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="97.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoR-Jv-zT0">
-                                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="49"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="44.666666666666664"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment content="Username">
                                                                         <attributes>
@@ -69,7 +69,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcb-CK-lB1">
-                                                                <rect key="frame" x="0.0" y="57" width="90.333333333333329" height="49"/>
+                                                                <rect key="frame" x="0.0" y="52.666666666666742" width="90.333333333333329" height="44.666666666666657"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment content="Password">
                                                                         <attributes>
@@ -83,15 +83,15 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Uwr-Oz-glZ" userLabel="InputSV">
-                                                        <rect key="frame" x="143" y="0.0" width="250" height="106"/>
+                                                        <rect key="frame" x="143" y="0.0" width="250" height="97.333333333333329"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YhI-Mo-89s">
-                                                                <rect key="frame" x="0.0" y="0.0" width="250" height="49"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="250" height="44.666666666666664"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e5E-Hk-s2R">
-                                                                <rect key="frame" x="0.0" y="57" width="250" height="49"/>
+                                                                <rect key="frame" x="0.0" y="52.666666666666742" width="250" height="44.666666666666657"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
@@ -103,10 +103,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="G8Z-tU-80a" userLabel="ActionbuttonSV">
-                                                <rect key="frame" x="0.0" y="227.66666666666666" width="393" height="105.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="210.33333333333331" width="393" height="97"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXo-Uh-K4r">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="48.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="44.333333333333336"/>
                                                         <color key="backgroundColor" systemColor="systemMintColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
@@ -125,7 +125,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdy-0e-fP9">
-                                                        <rect key="frame" x="0.0" y="56.666666666666629" width="393" height="49"/>
+                                                        <rect key="frame" x="0.0" y="52.333333333333371" width="393" height="44.666666666666657"/>
                                                         <color key="backgroundColor" systemColor="systemMintColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
@@ -166,11 +166,12 @@
                     <connections>
                         <outlet property="passwordTF" destination="e5E-Hk-s2R" id="nw1-Zr-XkU"/>
                         <outlet property="usernameTF" destination="YhI-Mo-89s" id="1nV-7y-9oz"/>
+                        <segue destination="g6R-Up-KYT" kind="show" id="uHI-JS-WSd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="724" y="-368"/>
         </scene>
         <!--CareConnect-->
         <scene sceneID="Vr8-8f-44W">
@@ -285,11 +286,12 @@
                     <connections>
                         <outlet property="emailvc" destination="u1n-Bu-9Tm" id="ZVW-AI-V1T"/>
                         <outlet property="pswdvc" destination="Ntt-5O-aR1" id="NGQ-WV-3H9"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="x4A-8r-pl3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Pd-hI-XGw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="394.6564885496183" y="-679.57746478873241"/>
+            <point key="canvasLocation" x="-327" y="-368"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vR4-1v-4ad">
@@ -308,25 +310,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LXh-jU-qtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-532.06106870229007" y="-679.57746478873241"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Lmc-oD-gni">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qNq-q6-tuW" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9eg-35-Y3X">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AVl-R4-yPC"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kgm-Dw-Wpt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="-1401" y="-368"/>
         </scene>
         <!--Doctorlogin Page-->
         <scene sceneID="ywv-uA-GKk">
@@ -354,10 +338,11 @@
                         <viewLayoutGuide key="safeArea" id="CgM-Ks-NOE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yBk-Qf-8sg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IgU-ee-Okg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-773.28244274809163" y="330.98591549295776"/>
+            <point key="canvasLocation" x="1912" y="-368"/>
         </scene>
     </scenes>
     <resources>
@@ -365,10 +350,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
