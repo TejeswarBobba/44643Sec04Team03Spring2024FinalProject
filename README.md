@@ -19,3 +19,8 @@
 
 # Screen - 02
 * As a team, we created a signup page in which we included a user to create/Register into the app by giving Email Address and creating there password and also confirmation of password, well we also introduced a Navigation Controller which helps in navigating through 2 pages.
+# screen - 03
+* As a team, we created a doctor name in which the we have identify the name of the doctor and also the patients it is how many patients is to be there and completed the treatment. we have to complete some UI is in progress.
+
+# screen - 04
+* As a team, we created the text filed  in patient name,medical records,symptoms and calender has been included.Also we have to include the some more text field on screen 04.
