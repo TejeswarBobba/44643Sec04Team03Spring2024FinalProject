@@ -17,6 +17,7 @@
 		7410662F2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410662E2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift */; };
 		741066312B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741066302B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift */; };
 		7444A0762B9AB91100A73844 /* SignuppageScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */; };
+		74B31DC92BC84C3000EC1E83 /* DoctorDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31DC82BC84C3000EC1E83 /* DoctorDetailsScreen.swift */; };
 		74C620D52BB451EA000350BF /* DoctorLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C620D42BB451EA000350BF /* DoctorLoginPage.swift */; };
 		DA5CB1272BB7905B00B3BA0F /* PatientsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5CB1262BB7905B00B3BA0F /* PatientsDetails.swift */; };
 		DA9C38922B898BBF009B23FA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DA9C38912B898BBF009B23FA /* Lottie */; };
@@ -54,6 +55,7 @@
 		7410662E2B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4643Sec04Team03Spring2024FinalProjectUITests.swift; sourceTree = "<group>"; };
 		741066302B85B27F00BCC9D0 /* _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4643Sec04Team03Spring2024FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignuppageScreen2.swift; sourceTree = "<group>"; };
+		74B31DC82BC84C3000EC1E83 /* DoctorDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsScreen.swift; sourceTree = "<group>"; };
 		74C620D42BB451EA000350BF /* DoctorLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLoginPage.swift; sourceTree = "<group>"; };
 		DA5CB1262BB7905B00B3BA0F /* PatientsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				741066112B85B27D00BCC9D0 /* ViewController.swift */,
 				7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */,
 				741066132B85B27D00BCC9D0 /* Main.storyboard */,
+				74B31DC82BC84C3000EC1E83 /* DoctorDetailsScreen.swift */,
 				DA5CB1262BB7905B00B3BA0F /* PatientsDetails.swift */,
 				74C620D42BB451EA000350BF /* DoctorLoginPage.swift */,
 				741066182B85B27E00BCC9D0 /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			files = (
 				DA5CB1272BB7905B00B3BA0F /* PatientsDetails.swift in Sources */,
 				741066122B85B27D00BCC9D0 /* ViewController.swift in Sources */,
+				74B31DC92BC84C3000EC1E83 /* DoctorDetailsScreen.swift in Sources */,
 				7410660E2B85B27D00BCC9D0 /* AppDelegate.swift in Sources */,
 				741066102B85B27D00BCC9D0 /* SceneDelegate.swift in Sources */,
 				7444A0762B9AB91100A73844 /* SignuppageScreen2.swift in Sources */,

@@ -34,6 +34,92 @@
             endingLineNumber = "13"
             landmarkName = "DoctorLoginPage"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - cceb10956ba7912f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.doctorName.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/44643Sec04Team03Spring2024FinalProject/DoctorLoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - 10adf05b03091c3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.doctorName.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/44643Sec04Team03Spring2024FinalProject/DoctorLoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - e860d2c96e6b8be0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.doctorName.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/44643Sec04Team03Spring2024FinalProject/DoctorLoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - a5ceffd7034619c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.doctorName.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - e0999f0a6208ca99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _4643Sec04Team03Spring2024FinalProject.DoctorLoginPage"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/44643Sec04Team03Spring2024FinalProject/DoctorLoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "4428CBE5-8FFB-4642-B373-8E805F01D0E9 - 3c81bd901279ec84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_4643Sec04Team03Spring2024FinalProject.DoctorLoginPage&gt;"
+                  moduleName = "44643Sec04Team03Spring2024FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejeswarbobba/Documents/IOS%20-%20spring/Project%20commits/44643Sec04Team03Spring2024FinalProject-6.1/44643Sec04Team03Spring2024FinalProject/44643Sec04Team03Spring2024FinalProject/DoctorLoginPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
