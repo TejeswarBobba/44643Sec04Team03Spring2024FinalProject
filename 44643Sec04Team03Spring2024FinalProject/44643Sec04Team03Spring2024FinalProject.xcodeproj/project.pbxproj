@@ -21,6 +21,9 @@
 		74C620D52BB451EA000350BF /* DoctorLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C620D42BB451EA000350BF /* DoctorLoginPage.swift */; };
 		DA5CB1272BB7905B00B3BA0F /* PatientsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5CB1262BB7905B00B3BA0F /* PatientsDetails.swift */; };
 		DA9C38922B898BBF009B23FA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DA9C38912B898BBF009B23FA /* Lottie */; };
+		DAD169252BC85F5D005DE001 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = DAD169242BC85F5D005DE001 /* CareKit */; };
+		DAD169272BC85F5D005DE001 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = DAD169262BC85F5D005DE001 /* CareKitStore */; };
+		DAD169292BC85F5D005DE001 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = DAD169282BC85F5D005DE001 /* CareKitUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD169252BC85F5D005DE001 /* CareKit in Frameworks */,
 				DA9C38922B898BBF009B23FA /* Lottie in Frameworks */,
+				DAD169292BC85F5D005DE001 /* CareKitUI in Frameworks */,
+				DAD169272BC85F5D005DE001 /* CareKitStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +173,9 @@
 			name = 44643Sec04Team03Spring2024FinalProject;
 			packageProductDependencies = (
 				DA9C38912B898BBF009B23FA /* Lottie */,
+				DAD169242BC85F5D005DE001 /* CareKit */,
+				DAD169262BC85F5D005DE001 /* CareKitStore */,
+				DAD169282BC85F5D005DE001 /* CareKitUI */,
 			);
 			productName = 44643Sec04Team03Spring2024FinalProject;
 			productReference = 7410660A2B85B27D00BCC9D0 /* 44643Sec04Team03Spring2024FinalProject.app */;
@@ -242,6 +251,7 @@
 			mainGroup = 741066012B85B27D00BCC9D0;
 			packageReferences = (
 				DA9C38902B898BBF009B23FA /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */,
 			);
 			productRefGroup = 7410660B2B85B27D00BCC9D0 /* Products */;
 			projectDirPath = "";
@@ -643,6 +653,14 @@
 				minimumVersion = 4.4.1;
 			};
 		};
+		DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -650,6 +668,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DA9C38902B898BBF009B23FA /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		DAD169242BC85F5D005DE001 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		DAD169262BC85F5D005DE001 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		DAD169282BC85F5D005DE001 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
