@@ -473,23 +473,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="tRl-nH-6FD">
-                                <rect key="frame" x="20" y="50" width="353" height="742"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tRl-nH-6FD">
+                                <rect key="frame" x="20" y="100" width="353" height="642"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOE-MZ-Yjq">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="180.66666666666666"/>
+                                        <rect key="frame" x="127.66666666666666" y="0.0" width="97.999999999999972" height="214"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctor Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xu-wc-Wv2">
-                                        <rect key="frame" x="0.0" y="280.66666666666669" width="353" height="180.66666666666669"/>
+                                        <rect key="frame" x="101.33333333333333" y="222" width="150.33333333333337" height="214"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctor Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3L3-Bs-UH3">
-                                        <rect key="frame" x="0.0" y="561.33333333333337" width="353" height="180.66666666666663"/>
+                                        <rect key="frame" x="128" y="444" width="97.333333333333314" height="198"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -500,10 +500,10 @@
                         <viewLayoutGuide key="safeArea" id="C9U-6T-sf1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tRl-nH-6FD" firstAttribute="top" secondItem="C9U-6T-sf1" secondAttribute="top" constant="50" id="Ei0-Fb-5VV"/>
-                            <constraint firstItem="C9U-6T-sf1" firstAttribute="trailing" secondItem="tRl-nH-6FD" secondAttribute="trailing" constant="20" id="L4c-Mz-TcI"/>
-                            <constraint firstItem="C9U-6T-sf1" firstAttribute="bottom" secondItem="tRl-nH-6FD" secondAttribute="bottom" constant="50" id="Ygs-MK-yOY"/>
-                            <constraint firstItem="tRl-nH-6FD" firstAttribute="leading" secondItem="C9U-6T-sf1" secondAttribute="leading" constant="20" id="rS6-sH-Yna"/>
+                            <constraint firstItem="tRl-nH-6FD" firstAttribute="leading" secondItem="C9U-6T-sf1" secondAttribute="leading" constant="20" id="Ptr-V7-qm1"/>
+                            <constraint firstItem="C9U-6T-sf1" firstAttribute="bottom" secondItem="tRl-nH-6FD" secondAttribute="bottom" constant="100" id="lJa-Lo-VJf"/>
+                            <constraint firstItem="C9U-6T-sf1" firstAttribute="trailing" secondItem="tRl-nH-6FD" secondAttribute="trailing" constant="20" id="ren-Uw-Lee"/>
+                            <constraint firstItem="tRl-nH-6FD" firstAttribute="top" secondItem="C9U-6T-sf1" secondAttribute="top" constant="100" id="tdv-RG-Ssk"/>
                         </constraints>
                     </view>
                 </viewController>
