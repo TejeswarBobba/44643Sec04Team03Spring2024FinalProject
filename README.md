@@ -24,3 +24,6 @@
 
 # screen - 04
 * As a team, we created the text filed  in patient name,medical records,symptoms and calender has been included.Also we have to include the some more text field on screen 04.
+
+# Sprint - 06
+As a team, we did completed our UI design and added the Frameworks needed for our project i.e., CalenderKit, CareKit. will be completing the functionalities soon .
