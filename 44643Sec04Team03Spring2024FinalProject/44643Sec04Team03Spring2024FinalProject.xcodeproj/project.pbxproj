@@ -19,6 +19,7 @@
 		7444A0762B9AB91100A73844 /* SignuppageScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444A0752B9AB91100A73844 /* SignuppageScreen2.swift */; };
 		74B31DC92BC84C3000EC1E83 /* DoctorDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B31DC82BC84C3000EC1E83 /* DoctorDetailsScreen.swift */; };
 		74C620D52BB451EA000350BF /* DoctorLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C620D42BB451EA000350BF /* DoctorLoginPage.swift */; };
+		DA2A3B522BCA34C8005E093B /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA2A3B512BCA34C8005E093B /* CalendarKit */; };
 		DA5CB1272BB7905B00B3BA0F /* PatientsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5CB1262BB7905B00B3BA0F /* PatientsDetails.swift */; };
 		DA9C38922B898BBF009B23FA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DA9C38912B898BBF009B23FA /* Lottie */; };
 		DAD169252BC85F5D005DE001 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = DAD169242BC85F5D005DE001 /* CareKit */; };
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2A3B522BCA34C8005E093B /* CalendarKit in Frameworks */,
 				DAD169252BC85F5D005DE001 /* CareKit in Frameworks */,
 				DA9C38922B898BBF009B23FA /* Lottie in Frameworks */,
 				DAD169292BC85F5D005DE001 /* CareKitUI in Frameworks */,
@@ -176,6 +178,7 @@
 				DAD169242BC85F5D005DE001 /* CareKit */,
 				DAD169262BC85F5D005DE001 /* CareKitStore */,
 				DAD169282BC85F5D005DE001 /* CareKitUI */,
+				DA2A3B512BCA34C8005E093B /* CalendarKit */,
 			);
 			productName = 44643Sec04Team03Spring2024FinalProject;
 			productReference = 7410660A2B85B27D00BCC9D0 /* 44643Sec04Team03Spring2024FinalProject.app */;
@@ -252,6 +255,7 @@
 			packageReferences = (
 				DA9C38902B898BBF009B23FA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				DAD169232BC85F5D005DE001 /* XCRemoteSwiftPackageReference "CareKit" */,
+				DA2A3B502BCA34C8005E093B /* XCRemoteSwiftPackageReference "CalendarKit" */,
 			);
 			productRefGroup = 7410660B2B85B27D00BCC9D0 /* Products */;
 			projectDirPath = "";
@@ -645,6 +649,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA2A3B502BCA34C8005E093B /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.10;
+			};
+		};
 		DA9C38902B898BBF009B23FA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -664,6 +676,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA2A3B512BCA34C8005E093B /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA2A3B502BCA34C8005E093B /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
 		DA9C38912B898BBF009B23FA /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DA9C38902B898BBF009B23FA /* XCRemoteSwiftPackageReference "lottie-ios" */;
